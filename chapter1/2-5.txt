@@ -1,0 +1,22 @@
+exercise 2.
+
+alex@djproject:~/projects$ python3
+Python 3.5.2 (default, Sep 29 2016, 19:24:58) 
+[GCC 4.9.2] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+
+exercise 3.
+
+>>> 8 * 9   
+72
+
+exercise 4.
+
+>>> 47
+47
+
+exercise 5.
+
+>>> print(47)                   
+47
