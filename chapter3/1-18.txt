@@ -1,0 +1,100 @@
+exercise 1.
+
+>>> years_list = ['1989', '1990', '1991', '1992', '1993', '1994']
+
+exercise 2.
+
+>>> years_list[3]
+'1992'
+
+exercise 3.
+
+>>> years_list[-1]
+'1994'
+
+exercise 4.
+
+>>> things = ['mozzarella', 'cinderella', 'salmonella']
+
+exercise 5.
+
+>>> things[1].capitalize()
+'Cinderella'
+>>> things
+['mozzarella', 'cinderella', 'salmonella']
+>>> things[1] = things[1].capitalize()
+>>> things
+['mozzarella', 'Cinderella', 'salmonella']
+
+exercise 6.
+
+>>> things[0] = things[0].upper()
+>>> things
+['MOZZARELLA', 'Cinderella', 'salmonella']
+
+exercise 7.
+
+>>> things.remove('salmonella')
+>>> things
+['MOZZARELLA', 'Cinderella']
+
+exercise 8.
+
+>>> surprise = ['Groucho', 'Chico', 'Harpo']
+
+exercise 9.
+
+>>> surprise[-1] = surprise[-1].lower()
+>>> surprise[-1] = surprise[-1][::-1]
+>>> surprise[-1] = surprise[-1].capitalize()
+>>> surprise
+['Groucho', 'Chico', 'Oprah'
+
+exercise 10.
+
+>>> e2f = {'dog': 'chien', 'cat': 'chat', 'walrus': 'morse'}
+>>> e2f
+{'walrus': 'morse', 'dog': 'chien', 'cat': 'chat'}'
+
+exercise 11.
+
+>>> e2f['walrus']
+'morse'
+
+exercise 12.
+
+>>> f2e = {}
+>>> for name1, name2 in e2f.items():
+	      f2e[name2] = name1
+        
+>>> f2e
+{'chat': 'cat', 'morse': 'walrus', 'chien': 'dog'}
+
+exercise 13.
+
+>>> f2e['chien']
+'dog'
+
+exercise 14.
+
+>>> list(e2f.keys())
+['walrus', 'dog', 'cat']
+
+exercise 15.
+
+>>> life = {'animals': {'cats': ['Henri', 'Grumpy', 'Lucy'], 'octopi': [], 'emus': []}, 'plants': {}, 'other': {}}
+
+exercise 16.
+
+>>> life
+{'animals': {'emus': [], 'octopi': [], 'cats': ['Henri', 'Grumpy', 'Lucy']}, 'other': {}, 'plants': {}}
+
+exercise 17.
+
+>>> life['animals']
+{'emus': [], 'octopi': [], 'cats': ['Henri', 'Grumpy', 'Lucy']}
+
+exercise 18.
+
+>>> life['animals']['cats']
+['Henri', 'Grumpy', 'Lucy']
