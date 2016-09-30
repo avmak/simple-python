@@ -1,0 +1,31 @@
+exercise 1.
+
+>>> 60 * 60
+3600
+
+exercise 2.
+
+>>> seconds_per_hour = 60 * 60
+>>> seconds_per_hour
+3600
+
+exercise 3.
+
+>>> seconds_per_hour * 24
+86400
+
+exercise 4.
+
+>>> seconds_per_day = seconds_per_hour * 24
+>>> seconds_per_day
+86400
+
+exercise 5.
+
+>>> seconds_per_day / seconds_per_hour
+24.0
+
+exercise 6.
+
+>>> seconds_per_day // seconds_per_hour
+24
