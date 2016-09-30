@@ -77,8 +77,8 @@ exercise 13.
 
 exercise 14.
 
->>> list(e2f.keys())
-['walrus', 'dog', 'cat']
+>>> set(e2f.keys())
+{'cat', 'walrus', 'dog'}
 
 exercise 15.
 
