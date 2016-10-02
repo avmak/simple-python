@@ -1,2 +1,2 @@
-for item in [3, 2, 1, 0]:
+for item in range(3, -1, -1):
     print(item)
