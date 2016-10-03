@@ -1,8 +1,9 @@
 def decfunc(func):
-	def infunc():
+	def infunc(*args, **kwargs):
 		print('start function {}...'.format(func.__name__))
-		func()
+		result = func(*args, **kwargs)
 		print('end function {}.'.format(func.__name__))
+        return result
 	return infunc
 
 @decfunc
