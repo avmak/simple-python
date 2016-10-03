@@ -1,7 +1,6 @@
 def get_odds():
 	for item in range(10):
-		if item % 2 == 0:
-			yield item
+		yield item
 
 count = 0
 
