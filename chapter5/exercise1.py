@@ -5,7 +5,3 @@ def hours():
 # second file or interpretator
 import zoo
 zoo.hours()
-
-# or
-from zoo import hours()
-hours()
