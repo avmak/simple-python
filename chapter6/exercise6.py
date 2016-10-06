@@ -4,9 +4,10 @@ class Element():
         self.symbol = symbol
         self.number = number
 
-dyct_hyd = {'name': 'Hydrogen', 'symbol': 'H', 'number': 1}
-hydrogen = Element(**dyct_name)
+    def dump(self):
+        print('name={}, symbol={}, number={}'.format(self.name, self.symbol, self.number))
 
-hydrogen.name
-hydrogen.symbol
-hydrogen.number
+dyct_hyd = {'name': 'Hydrogen', 'symbol': 'H', 'number': 1}
+hydrogen = Element(**dyct_hyd)
+
+hydrogen.dump()
