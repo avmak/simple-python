@@ -38,5 +38,5 @@ words = r'\bc\w*'
 re.findall(words, mammoth)                                          # output: ['cheese', 'city', 'cheese', 'cheek', 'could', 'cheese', 'cast', 'crush']
 
 # exercise 9
-words = r'\bc...'
+words = r'\bc...\b'
 re.findall(words, mammoth)                                          # output: ['chee', 'city', 'chee', 'chee', 'coul', 'chee', 'cast', 'crus']
