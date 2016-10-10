@@ -44,3 +44,7 @@ re.findall(words, mammoth)                                          # output: ['
 # exercise 10
 words = r'\b\w*r\b'
 re.findall(words, mammoth)                                          # output: ['your', 'fair', 'Or', 'scar', 'Mr', 'far', 'For', 'your', 'or']
+
+# exercise 11
+words = r'\b\w*[AEIOUYaeiouy]{3}\w*\b'
+re.findall(words, mammoth)                                          # output: ['queen', 'quietly', 'your', 'you', 'beau', 'queen', 'you', 'you', 'youth', 'squeeze', 'your', 'queen', 'You']
