@@ -40,3 +40,7 @@ re.findall(words, mammoth)                                          # output: ['
 # exercise 9
 words = r'\bc\w{3}\b'
 re.findall(words, mammoth)                                          # output: ['chee', 'city', 'chee', 'chee', 'coul', 'chee', 'cast', 'crus']
+
+# exercise 10
+words = r'\b\w*r\b'
+re.findall(words, mammoth)                                          # output: ['your', 'fair', 'Or', 'scar', 'Mr', 'far', 'For', 'your', 'or']
