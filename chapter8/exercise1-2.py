@@ -8,3 +8,4 @@ with open('test.txt', 'rt') as fl:
     test2 = fl.read()
 
 print(test2)                                                                    # output: This is a test of the emergency text system
+test1 == test2                                                                  # output: True
