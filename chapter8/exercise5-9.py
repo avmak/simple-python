@@ -40,3 +40,4 @@ for row in curs.fetchall():
 
 for row in curs.execute('SELECT * FROM books ORDER BY year'):
 	print(*row, sep=', ')
+conn.close()
