@@ -15,4 +15,4 @@ import csv
 
 with open('books.csv', 'rt') as inf:
     for row in csv.DictReader(inf):									# output: {'author': 'J R R Tolkien', 'book': 'The Hobbit'}
-		print(row)													# output: {'author': 'Lynne Truss', 'book': 'Eats, Shoots & Leaves'}
+		print(row)										# output: {'author': 'Lynne Truss', 'book': 'Eats, Shoots & Leaves'}
