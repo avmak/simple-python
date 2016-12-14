@@ -16,8 +16,7 @@ strfromclib = client.recv(max_size)
 strfromcli = bytes_to_str(strfromclib)
 print('Client said: %s.' % strfromcli)
 if strfromcli == 'time':
-    today = datetime.now()
-    todayiso = today.isoformat()
+    todayiso = str(datetime.utcnow())
     todayisob = str_to_bytes(todayiso)
     client.sendall(todayisob)
 else:
