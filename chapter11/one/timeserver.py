@@ -2,6 +2,7 @@ import socket
 from datetime import datetime
 from encdecode import str_to_bytes, bytes_to_str
 
+
 address = ('localhost', 6789)
 max_size = 1000
 
