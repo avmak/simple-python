@@ -1,6 +1,8 @@
 import socket
 from encdecode import str_to_bytes, bytes_to_str
 
+
+print('Start the client.')
 strtoser = input('Enter the string: ')
 strtoserb = str_to_bytes(strtoser)
 address = ('localhost', 6789)
