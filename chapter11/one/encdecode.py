@@ -5,6 +5,7 @@ def str_to_bytes(bos):
         value = bos
     return value
 
+
 def bytes_to_str(bos):
     if isinstance(bos, bytes):
         value = bos.decode('utf-8')
